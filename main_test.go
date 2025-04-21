@@ -11,7 +11,7 @@ func TestMain(t *testing.T) {
 	req := httptest.NewRequest("GET", "/", nil)
 	w := httptest.NewRecorder()
 
-	handler(w, req)
+	rootHandler(w, req)
 
 	resp := w.Result()
 	defer resp.Body.Close()
