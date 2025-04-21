@@ -9,6 +9,11 @@ dev:
 		wait; \
 	}
 
+.PHONY: test 
+test:
+	@echo "Testing the application"
+	@go test -v
+
 .PHONY: build
 build:
 	@echo "Building Go and Frontend"
