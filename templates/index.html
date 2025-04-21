@@ -8,6 +8,17 @@
     <div class="flex-col items-center justify-center flex p-8">
       <img src="/static/images/gopher.png" alt="Go Logo" class="w-20" />
       <h1 class="text-center mt-4">{{.Message}}</h1>
+      <div class="mt-4">
+        <button
+          type="button"
+          hx-get="/htmx"
+          hx-swap="outerHTML"
+          class="px-4 py-2 bg-blue-500 text-white cursor-pointer rounded"
+        >
+          Test HTMX
+        </button>
+      </div>
     </div>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
   </body>
 </html>
