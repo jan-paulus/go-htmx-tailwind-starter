@@ -1,0 +1,7 @@
+tmp
+node_modules
+build
+bin
+static/css/main.css
+
+.env

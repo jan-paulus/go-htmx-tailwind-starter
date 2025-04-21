@@ -1,0 +1,11 @@
+{
+  "name": "go-htmx-tailwind-starter",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./static/css/input.css -o ./static/css/main.css -w",
+    "build": "npx tailwindcss -i ./static/css/input.css -o ./static/css/main.css -m"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}
