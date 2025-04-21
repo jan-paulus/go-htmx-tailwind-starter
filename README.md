@@ -27,7 +27,3 @@ make dev
 ```bash
 make build
 ```
-
-```
-
-```
