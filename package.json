@@ -5,7 +5,7 @@
     "build": "npx tailwindcss -i ./static/css/input.css -o ./static/css/main.css -m"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.7",
+    "@tailwindcss/cli": "^4.1.8",
     "tailwindcss": "^4.1.7"
   }
 }
